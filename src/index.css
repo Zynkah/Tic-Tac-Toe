@@ -1,8 +1,8 @@
 body {
-  background-color: #444;
+  background-color: darkslateblue;
   color: white;
   margin: 20px;
-  font: 32px "Century Gothic", sans-serif;
+  font: 36px Impact, sans-serif; 
 }
 
 .game {
@@ -17,9 +17,11 @@ body {
 }
 
 .square {
-  background-color: #444;
+  background-color: MediumSlateBlue;
   color: white;
-  border: 1px solid #999;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 5px;
   padding: 0;
   font-size: 84px;
   text-align: center;
@@ -29,11 +31,19 @@ body {
 
 .square:focus {
   outline: none;
-  background-color: #222;
+  background-color: darkslateblue;
+  color: rgb(156, 145, 234);;
+}
+
+.square:hover {
+  outline: none;
+  background-color: rgb(156, 145, 234);
+  color: darkslateblue;
 }
 
 .status {
   margin: 20px;
-  font-size: 24px; 
-  text-align: center; 
+  font: 28px 'Arial Narrow Bold', sans-serif; 
+  text-align: center;
+  color: rgb(156, 145, 234);; 
 }
